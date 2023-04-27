@@ -14,3 +14,85 @@ body{
     background-size: cover;
     min-height: 100vh;
 }
+
+.main-content{
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%);
+    width: 75%;
+}
+
+.main-content h1{
+    font-size: 3rem;
+}
+
+.main-content p{
+    font-size: 1.2rem;
+    margin: .5rem 0;
+}
+
+.gradient-btn{
+    display: 45px;
+    place-items: center;
+    text-decoration: none;
+    color: #0be004;
+    border-radius: 10px;
+    background-size: 200% auto;
+    transition: .2s ease-in-out;
+}
+
+.main-content .gradient-btn{
+    width: 200px;
+    height: 45px;
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:600px) {
+    .main-content h1{
+        font-size: 2.25rem;
+    }
+
+    .main-content p{
+        font-size: 1rem;
+    }
+
+    .gradient-btn{
+        width: 175px;
+        height: 40px;
+        font-size:.8rem;
+    }
+}
+
+.about{
+    padding: 1rem;
+    text-align: center;
+}
+
+.about h1{
+    font-size: 3rem;
+    margin: 1rem 0;
+}
+
+.about-sub{
+    display: flex;
+    max-width: 800px;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.about-sub > img{
+    max-height:250px;
+    width:400px;
+    max-width:90%;
+}
+
+.about-sub .sub-sub-about{
+    padding: 1rem;
+}
+
+.about-sub .sub-sub-about p{
+    font-size: 14px;
+}
