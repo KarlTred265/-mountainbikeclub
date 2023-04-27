@@ -1,0 +1,19 @@
+nav{
+    height: 70px;
+    background-color: greenyellow;
+    color: #fff;
+}
+
+nav .brand{
+    margin-left: 1rem;
+}
+
+nav .brand img{
+    height: 50px;
+}
+
+nav .brand a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+}
