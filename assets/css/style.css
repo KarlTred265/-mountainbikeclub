@@ -37,7 +37,7 @@ body {
     display: 45px;
     place-items: center;
     text-decoration: none;
-    color: #0be004;
+    color: #00d80b;
     border-radius: 10px;
     background-size: 200% auto;
     transition: .2s ease-in-out;
@@ -135,4 +135,5 @@ body {
     text-align: center;
     background-color: #09b403;
     padding: 10px;
+    font-size: .75rem;
 }

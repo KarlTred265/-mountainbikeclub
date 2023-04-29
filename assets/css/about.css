@@ -1,0 +1,75 @@
+section{
+    background: url('../images/horder-image.jpg') no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+section > h1{
+    color: #000000;
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 2.5rem;
+}
+
+.about-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.about-card{
+    background-color: aliceblue;
+    border-radius: 5px;
+    text-align: center;
+    margin:1rem .75rem;
+    width: 200px;
+    min-height: 400px;
+    padding: 1rem .75rem;
+    box-shadow:1px 2px 10px 1px #333;
+}
+
+.about-card .plan{
+    font-size: 2rem;
+}
+
+.about-card .description{
+    font-size: .9rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.about-card > a{
+    background-color: green;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+}
+
+.about-card > a:hover{
+    background-color: rgb(0, 80, 0);
+}
+
+.about-card .about{
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 10px 0;
+    margin-top:1.5rem;
+}
+
+.about-card .about span{
+    font-size: 1rem;
+}
+
+.about-card ul{
+    text-align: left;
+    padding: 0 1rem;
+}
+
+.about-card ul li{
+    font-size: .9rem;
+    list-style-type: circle;
+    padding-top: 5px;
+}
