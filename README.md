@@ -1,108 +1,76 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## Aspen's MountainBike Club
+Welcome to the Aspen Mountain Bike Club
+  Club is a rental mountain bike club that has its mountain travel trips in the mountains of Aspen. Where we have different mountain bike activities that we take our members on great eventful trips with different types of different levels of mountain bikes.
+  
+  summary of Aspen Mountain Bike Club Homepage The site consists of 3 different val bike type trips with different challenges of different forms of cycling in groups and with leaders who have world-class professional customer service.
 
-Welcome KarlTred265 Tred,
+The driving trip lasts for several hours and you as a member and operator get a fantastic monuntenbike experience and driving trip.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Hemsdian connects to all the steps you as a new member need to know and how to choose the package that suits you as an individual.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Aspen's Mountainbike Club and you will always quickly start to become a member with a good registration in filled clicks and sdean you are one of and Aspen's Mountainbike Team.
+  
+  ![responive imgae](https://user-images.githubusercontent.com/131257386/235362365-28b97f29-8a38-4927-a085-6aab7d6014eb.jpg)
 
-## Gitpod Reminders
+Live Link: https://karltred265.github.io/mountainbikeclub/
+        
+## All pages of Aspen's Mountainbike club:
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Home page:
+In the home page there is a fantastic offer and history with mountain biking information about mountain biking trips of different types and levels in the aspen mountains.
 
-`python3 -m http.server`
+![home-imgae](https://user-images.githubusercontent.com/131257386/235362687-6a6df47a-fb6f-49ca-b4f7-2bf92315f794.jpg)
 
-A blue button should appear to click: _Make Public_,
+on the home page, navigate and link our Join now links to the contact page to first become a member and then start with us.
 
-Another blue button should appear to click: _Open Browser_.
+![home section about](https://user-images.githubusercontent.com/131257386/235362705-ba2fc383-f5c8-4b6e-bb2e-c678d1a3ae9f.jpg)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Footer consists of an email send function.
 
-A blue button should appear to click: _Make Public_,
+![footer image](https://user-images.githubusercontent.com/131257386/235362742-12e6cdba-47cd-4376-88a9-3f0c7b289ee4.jpg)
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## About page:
 
-To log into the Heroku toolbelt CLI:
+About page Consists of our different mountain bike packages that contain different challenges with awesome bike trips.
+in the package, there are rides for all individuals, from beginners to professionals to great challenge trips to choose from.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![about us page](https://user-images.githubusercontent.com/131257386/235362885-bcf7e30d-a106-4308-9b8d-858e231d2746.jpg)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The start here link links to the contact page to become a member and start driving great trips with us in the aspen mountains with our fantastic groups that provide the best possible effects of what mountain biking is.
 
-------
+![about page 2](https://user-images.githubusercontent.com/131257386/235362937-011c31db-dbd5-422f-8a78-aea96c4d356c.jpg)
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Contact page:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+The contact page consists of a become a member function where new customers who want to become members fill in their name, email password and message to the function where you log in with your name password and email we also have a message function where you fill in your email ask write questions to us in these three ways, new members can get in touch with us and also follow us under to us on social media.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![conat regaistor image](https://user-images.githubusercontent.com/131257386/235363113-6d0a38b2-39cb-44de-bbfe-90465c99d265.jpg)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+![sing in page](https://user-images.githubusercontent.com/131257386/235363300-14b54a8e-64d9-4967-9fe5-b5fa012f7ab5.jpg)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Testing
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+My lighthouse test went well
+ 
+![proce](https://user-images.githubusercontent.com/131257386/235363347-f7f7fbcc-bf39-4286-8228-608cfb21df1a.jpg)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+W3C CSS Validator
+I had a bug in the W3C CSS test:  39 .gradient-btn Value error : display 45px is not a display-value : 45px
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+In the Html test I had three errors: W3C HTML Validator
+![html checken](https://user-images.githubusercontent.com/131257386/235363696-fff8ba36-3e08-477d-aecc-731054aef9a7.jpg)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+I had 3 unfixed bugs.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+I had to follow youtube to fix the new variant of how to deploy the steps.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+all images come in from the www.pexels.com 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+I used google fonts for the text and fontawesome for the social media icons.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
 
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
