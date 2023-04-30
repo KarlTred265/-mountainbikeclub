@@ -63,3 +63,43 @@ section {
 .signin form button:hover{
     background-color: rgb(0, 216, 0);
 }
+
+@media screen and (max-width:600px) {
+
+    nav .fa{
+        display: block;
+    }
+
+    nav ul .fa{
+        margin-bottom: 10px;
+    }
+
+    nav .brand img{
+        height: 40px;
+    }
+    
+    nav .brand a{
+         font-size: 1.2rem;
+    }
+    nav ul{
+        flex-direction: column;
+        position: absolute;
+        top:0;
+        right:0;
+        width:35px;
+        padding:10px;
+        height: 100vh;
+        z-index: 88;
+    }
+
+
+    nav ul li {
+        margin-top:10px;
+    }
+
+
+    nav ul li a{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
