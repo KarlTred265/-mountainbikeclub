@@ -27,7 +27,7 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./contact.html">Contact</a></li>
-                <li><a href="./sign.html">Sign in</a></li>
+                
             </ul>
         </nav>
 
@@ -40,17 +40,33 @@
     </section>
 
     <section class="contact-form" id="contact">
-        <h1>Contact out team</h1>
-        <h1>Or become a member here</h1>
+        <h1>Sign up</h1>
         <form action="">
             <input type="text" name="fname" placeholder="First Name" required>
             <input type="text" name="lname" placeholder="Last Name" required>
             <input type="email" name="email" placeholder="Email address" required>
-            <input type="password" name="password" placeholder="password" required>
-            <input type="text" name="choose" placeholder="choose a team" required />
-            <textarea name="query" id="" cols="30" rows="5" placeholder="questions here"></textarea>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="text" name="choose" placeholder="Choose a team" required />
+            <textarea name="query" id="" cols="30" rows="5" placeholder="Questions here"></textarea>
 
             <button type="submit">Submit</button>
+
+            <h1>Leave a message</h1>
+            <input type="email" name="email" placeholder="Email address" required>
+            <textarea name="query" id="" cols="30" rows="5" placeholder="Questions here"></textarea>
+
+            <button type="submit">Submit</button>
+
+            <h1>Sign in</h1>
+            <input type="text" name="fname" placeholder="First Name" required>
+            <input type="email" name="email" placeholder="Email address" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <div class="form-item">
+                <input type="checkbox" id="remember" name="remember" />
+                <label for="remember">Remember me</label>
+            </div>
+            <button type="submit">Submit</button>
+
         </form>
 
         <div class="social-medias">
