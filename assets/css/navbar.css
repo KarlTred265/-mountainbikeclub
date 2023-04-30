@@ -17,7 +17,7 @@ nav .brand img{
 }
 
 nav .brand a{
-    
+    color: #fff;
     text-decoration: none;
     font-size: 2rem;
     font-weight: bold;
@@ -62,7 +62,7 @@ nav ul li a:hover::after{
 }
 
 nav .fa{
-    
+    color:#fff;
     font-size: 2rem;
     display: none;
 }
